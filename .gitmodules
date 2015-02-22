@@ -1,0 +1,3 @@
+[submodule "provisioning"]
+	path = provisioning
+	url = https://github.com/Daemonite/ansible-roles.git

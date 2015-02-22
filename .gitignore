@@ -1,0 +1,5 @@
+*.pyc
+code
+logs
+.vagrant
+inventory_temp

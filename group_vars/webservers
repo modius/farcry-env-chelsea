@@ -1,0 +1,28 @@
+---
+  # website variables
+  farcry_repository: https://github.com/farcrycore/project-chelsea.git
+  farcry_branch: "master"
+  farcry_fcscript: install/deploy.txt
+  farcry_path: /opt/www
+  farcry_installer_run: True
+  farcry_installer_displayname: Chelsea
+  farcry_installer_project: chelsea
+  farcry_installer_updateappkey: chelsea
+  farcry_installer_password: farcry
+
+  nginx_selfsigned: True
+  nginx_certificate: ""
+  nginx_certificate_key: ""
+
+  cfml_server_password_hash: "bd1f869de33f5424e865f5e3a8e945a436f284df6b7bef1a5be79df1e8c186d0"
+  cfml_website_password_hash: "bd1f869de33f5424e865f5e3a8e945a436f284df6b7bef1a5be79df1e8c186d0"
+  cfml_smtp_server: ""
+  cfml_smtp_port: "485"
+  cfml_smtp_user: ""
+  cfml_smtp_password_hash: ""
+  cfml_smtp_ssl: "false"
+  cfml_smtp_tls: "false"
+
+  log_sync_directory: ""
+
+  web_root: /opt/www/projects/chelsea/www

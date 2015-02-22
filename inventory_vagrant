@@ -1,0 +1,5 @@
+[vagrant]
+web ansible_ssh_host=192.168.3.22
+
+[webservers:children]
+vagrant

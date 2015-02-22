@@ -1,0 +1,25 @@
+---
+  # vagrant specific ansible variables
+  role_awscli: false
+  role_railo: false
+  role_lucee: true
+  domains: [ "chelsea.local", "192.198.3.22" ]
+  memcached_log_path: "/logs/memcached.log"
+  mysql_error_log_path: "/logs/mysql-error.log"
+  nginx_access_log_path: "/logs/nginx-access.log"
+  nginx_error_log_path: "/logs/nginx-error.log"
+  nginx_sendfile: "off"
+  log_sync_directory: "/logs"
+  # assumes anon read access to all repos
+  farcry_key: ""
+  cfml_datasource: "chelsea"
+  cfml_datasource_host: "localhost"
+  cfml_datasource_port: "3306"
+  cfml_datasource_database: "chelsea"
+  cfml_datasource_type: "mysql"
+  cfml_datasource_username: root
+  cfml_datasource_password: ""
+  cfml_datasource_password_hash: ""
+  mysql_host: localhost
+  mysql_port: 3306
+  mysql_database: "chelsea"

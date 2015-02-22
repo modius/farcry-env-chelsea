@@ -1,0 +1,19 @@
+---
+  # ec2 ansible variables
+  ubuntu_package_archive: http://ap-southeast-2.ec2.archive.ubuntu.com/ubuntu/
+  application_environment: "stage"
+  role_mysql: false
+  role_railo: false
+  role_lucee: true
+  role_memcached: false
+  domains: [ "chelsea.daemonite.com" ]
+  farcry_key: "/opt/bingo-env-bingolive/ssh/bingo-bitbucket-id_rsa"
+  cfml_datasource: "chelsea"
+  cfml_datasource_host: "????.rds.amazonaws.com"
+  cfml_datasource_port: "1433"
+  cfml_datasource_database: "chelsea"
+  cfml_datasource_type: "mysql"
+  cfml_datasource_username: "chelsea"
+  cfml_datasource_password_hash: "4df523f4032102fff6124ed7a7712b3a38ca5650a521ab01c21808b3d243856e"
+  farcry_installer_run: false
+  farcry_fcscript_overridechanges: True
