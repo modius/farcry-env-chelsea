@@ -31,9 +31,9 @@ Change directory to the root of the project and `vagrant up`.
 
 Site access:
 
-- http://projecturl (or http://IPADDRESS)
-- http://projecturl/webtop (farcry/farcry)
-- http://projecturl/lucee/admin/server.cfm (pwd: vagrant)
+- http://chelsea.local (or http://IPADDRESS)
+- http://chelsea.local/webtop (farcry/farcry)
+- http://chelsea.local/lucee/admin/server.cfm (pwd: farcry)
 
 To restart Lucee server `vagrant ssh` onto the virtual:
 
