@@ -33,7 +33,7 @@ Site access:
 
 - http://projecturl (or http://IPADDRESS)
 - http://projecturl/webtop (farcry/farcry)
-- http://projecturl/railo-context/admin/server.cfm (pwd: vagrant)
+- http://projecturl/lucee/admin/server.cfm (pwd: vagrant)
 
 To restart Railo server `vagrant ssh` onto the virtual:
 
