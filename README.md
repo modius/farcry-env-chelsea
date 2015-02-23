@@ -16,7 +16,7 @@ This only needs to be the once per workstation. If you already have a working Va
 
 Requires an existing installation of the standard Daemonite Vagrant Workbench.
 
-    git clone https://github.com/farcrycore/project-chelsea.git
+    git clone https://github.com/modius/farcry-env-chelsea.git
     cd farcry-env-chelsea
     git submodule update --init
     vagrant up
