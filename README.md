@@ -67,7 +67,7 @@ Then <http://localhost:8080/webtop/install> to reinstall FarCry app.
 
 # Simple Deployment Pipeline
 
-Assuming you have an existing installation on a production Ubuntu box you can update the environement to the exact tags and/or branches nominated in the project `./install/deploy.txt` file by running the `update.yml` playbook.
+Assuming you have an existing installation on a production Ubuntu box you can update the environment to the exact tags and/or branches nominated in the project `./install/deploy.txt` file by running the `update.yml` playbook.
 
 1.  check code into repo
 2.  Logon to production server:
