@@ -35,10 +35,10 @@ Site access:
 - http://projecturl/webtop (farcry/farcry)
 - http://projecturl/lucee/admin/server.cfm (pwd: vagrant)
 
-To restart Railo server `vagrant ssh` onto the virtual:
+To restart Lucee server `vagrant ssh` onto the virtual:
 
 ```
-sudo /etc/init.d/railo_ctl restart
+sudo /etc/init.d/lucee_ctl restart
 ```
 
 The website listens for `*.vagrant.com` host headers so `vagrant share` should work :)
