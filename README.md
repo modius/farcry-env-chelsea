@@ -16,7 +16,7 @@ This only needs to be the once per workstation. If you already have a working Va
 
 Requires an existing installation of the standard Daemonite Vagrant Workbench.
 
-    git clone https://github.com/farcrycore/project-chelsea.git
+    git clone https://github.com/modius/farcry-env-chelsea.git
     cd farcry-env-chelsea
     git submodule update --init
     vagrant up
@@ -33,12 +33,12 @@ Site access:
 
 - http://projecturl (or http://IPADDRESS)
 - http://projecturl/webtop (farcry/farcry)
-- http://projecturl/railo-context/admin/server.cfm (pwd: vagrant)
+- http://projecturl/lucee/admin/server.cfm (pwd: vagrant)
 
-To restart Railo server `vagrant ssh` onto the virtual:
+To restart Lucee server `vagrant ssh` onto the virtual:
 
 ```
-sudo /etc/init.d/railo_ctl restart
+sudo /etc/init.d/lucee_ctl restart
 ```
 
 The website listens for `*.vagrant.com` host headers so `vagrant share` should work :)
@@ -67,7 +67,7 @@ Then <http://localhost:8080/webtop/install> to reinstall FarCry app.
 
 # Simple Deployment Pipeline
 
-Assuming you have an existing installation on a production Ubuntu box you can update the environement to the exact tags and/or branches nominated in the project `./install/deploy.txt` file by running the `update.yml` playbook.
+Assuming you have an existing installation on a production Ubuntu box you can update the environment to the exact tags and/or branches nominated in the project `./install/deploy.txt` file by running the `update.yml` playbook.
 
 1.  check code into repo
 2.  Logon to production server:
