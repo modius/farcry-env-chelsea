@@ -21,7 +21,7 @@ Requires an existing installation of the standard Daemonite Vagrant Workbench.
     git submodule update --init
     vagrant up
 
-
+_note: you may be asked for a password the first time you run vagrant up. this is the host manager plugin asking for permission to modify your hosts file._
 
 # Running the Workbench
 
