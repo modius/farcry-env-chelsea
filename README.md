@@ -8,8 +8,6 @@ This only needs to be the once per workstation. If you already have a working Va
 
 1.  Install VirtualBox: https://www.virtualbox.org/wiki/Downloads
 2.  Install Vagrant http://www.vagrantup.com/downloads.html
-3.  Install `vagrant-hostmanager` plugin:
-    `vagrant plugin install vagrant-hostmanager`
 
 
 ## Setting Up Project Environment
