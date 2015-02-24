@@ -7,7 +7,7 @@
   role_lucee: true
   role_memcached: false
   domains: [ "chelsea.daemonite.com" ]
-  farcry_key: "/opt/bingo-env-bingolive/ssh/bingo-bitbucket-id_rsa"
+  farcry_key: ""
   cfml_datasource: "chelsea"
   cfml_datasource_host: "????.rds.amazonaws.com"
   cfml_datasource_port: "1433"
